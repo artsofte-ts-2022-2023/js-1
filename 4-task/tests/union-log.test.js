@@ -1,11 +1,14 @@
 import { strict as assert } from "assert";
-import { unionLog } from '../solution.js';
+import { unionLog } from "../solution.js";
 
 export const shouldThrowError = () => {
+  let isSuccess = false;
   try {
-    unionLog('kek', 'Hello')
-    assert.equal(true, false);
+    unionLog("kek", "Hello");
+    isSuccess = false;
   } catch (e) {
-    assert.equal(true, true);
+    isSuccess = true;
   }
-}
+
+  assert.equal(isSuccess, true);
+};
