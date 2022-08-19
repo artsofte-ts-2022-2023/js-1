@@ -1,0 +1,17 @@
+{
+  "name": "js-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "1-task-tests": "xv 1-task/tests/add.test.js",
+    "1-p-task-tests": "xv 1-task/tests/private.test.js",
+    "2-task-tests": "xv 2-task/tests/fib.test.js",
+    "3-task-tests": "xv 3-task/tests/palindrome.test.js",
+    "4-task-tests": "xv 4-task/tests/union-log.test.js",
+    "all-tests": "xv ."
+  },
+  "devDependencies": {
+    "xv": "^1.1.1"
+  }
+}
