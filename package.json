@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "1-task-tests": "xv 1-task/tests/add.test.js",
-    "1-p-task-tests": "xv 1-task/tests/private.test.js",
     "2-task-tests": "xv 2-task/tests/fib.test.js",
     "3-task-tests": "xv 3-task/tests/palindrome.test.js",
     "4-task-tests": "xv 4-task/tests/union-log.test.js",
+    "5-task-tests": "xv 5-task/tests/range.test.js",
     "all-tests": "xv ."
   },
   "devDependencies": {
