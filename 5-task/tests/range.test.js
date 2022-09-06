@@ -23,7 +23,7 @@ export const sumSimpleTest = () => {
 
 export const rangeSimpleTest = () => {
   const first = isArraysContentAndOrderEquals([1, 2, 3], range(1, 3));
-  const second = isArraysContentAndOrderEquals([1, 3, 5], range(1, 3, 2));
+  const second = isArraysContentAndOrderEquals([1, 3], range(1, 3, 2));
 
   assert.equal(first && second, true);
 }
