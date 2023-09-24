@@ -1,1 +1,1 @@
-export type Palindrome = (str: string) => boolean;
+export type palindrome = (str: string) => boolean;
