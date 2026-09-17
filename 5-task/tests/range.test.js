@@ -24,6 +24,9 @@ export const sumSimpleTest = () => {
 export const rangeSimpleTest = () => {
   const first = isArraysContentAndOrderEquals([1, 2, 3], range(1, 3));
   const second = isArraysContentAndOrderEquals([1, 3], range(1, 3, 2));
+  const third = isArraysContentAndOrderEquals([1, 2, 3, 4, 5], range(1, 5, 1));
+  const fourth = isArraysContentAndOrderEquals([1, 4, 7], range(1, 7, 3));
+  const fifth = isArraysContentAndOrderEquals([], range(5, 3));
 
-  assert.equal(first && second, true);
+  assert.equal(first && second && third && fourth && fifth, true);
 }

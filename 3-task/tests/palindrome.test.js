@@ -6,6 +6,7 @@ export const isPalindrom = () => {
   const second = palindrome("AnA") === true;
   const third = palindrome("racecar") === true;
   const fourth = palindrome("") === false;
+  const fifth = palindrome("0") === false;
 
-  assert.equal(first && second && third && fourth, true);
+  assert.equal(first && second && third && fourth && fifth, true);
 };
